@@ -1,4 +1,5 @@
-﻿Write-Host 'This script is designed to be executed against a mounted forensic image.' -ForegroundColor Yellow
+﻿####Last updated on 08/29/2018; Designed with Powershell version 5.1.17134.165; Created by Brock Bell; Git @Broctets-and-Bytes
+Write-Host 'This script is designed to be executed against a mounted forensic image.' -ForegroundColor Yellow
 Write-Host 'This must be executed as an administrator.' -ForegroundColor Yellow
 Write-Host 'Requires: Python 2 or higher installed & set in environment path; .Net4.6; Powershell V3+' -ForegroundColor Yellow
 Write-Host "MFT parsing is configured, but commented out because it takes significant time. It's the last parsing option of the script if you wish to enable." -ForegroundColor Yellow

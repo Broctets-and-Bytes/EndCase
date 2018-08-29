@@ -73,3 +73,4 @@ cd ..
 .\AppCompatCacheParser.exe -t -f ${DataRepo}\System --csv ${ReportsRepo}\
 #Parse MFT Data; This option is time intensive.If you do not need MFT data, consider commenting this option out.
 ###.\Mft2Csv-master\Mft2Csv64.exe /MFTFile:${DataRepo}\'$MFT' /TimeZone:0.00 /OutputPath:${ReportsRep
+Read-Host -Prompt 'Processing complete. Press any key to exit.'

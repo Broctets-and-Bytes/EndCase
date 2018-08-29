@@ -10,6 +10,7 @@ Invoke-WebRequest -Uri "https://github.com/jschicht/RawCopy/archive/master.zip" 
 Invoke-WebRequest -Uri "https://github.com/jschicht/UsnJrnl2Csv/archive/master.zip" -OutFile .\UsnJrnl2Csv.zip 
 Invoke-WebRequest -Uri "https://github.com/jschicht/Mft2Csv/archive/master.zip" -OutFile .\Mft2Csv.zip
 Invoke-WebRequest -Uri "https://github.com/jschicht/LogFileParser/archive/master.zip" -OutFile .\LogFileParser.zip
+Invoke-WebRequest -Uri "https://github.com/jschicht/ExtractUsnJrnl/archive/master.zip" -OutFile .\ExtractUsnJrnl.zip
 Invoke-WebRequest -Uri "https://github.com/ANSSI-FR/bmc-tools/archive/master.zip" -OutFile .\bmc-tools.zip
 Invoke-WebRequest -Uri "https://ericzimmerman.github.io/Software/ShellBagsExplorer.zip" -OutFile .\ShellBagsExplorer.zip
 Invoke-WebRequest -Uri "https://ericzimmerman.github.io/Software/AppCompatCacheParser.zip" -OutFile .\AppCompatCacheParser.zip
